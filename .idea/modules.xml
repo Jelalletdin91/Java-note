@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-oop/04. OOP [Part 4] - Polymorphism/01. Compile-time polymorphism/01. Compile-time polymorphism.iml" filepath="$PROJECT_DIR$/java-oop/04. OOP [Part 4] - Polymorphism/01. Compile-time polymorphism/01. Compile-time polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/01. Introduction/01. Introduction.iml" filepath="$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/01. Introduction/01. Introduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/05. OOP [Part 5] - Abstract Classes/01. Mobile phones app/01. Mobile phones app.iml" filepath="$PROJECT_DIR$/java-oop/05. OOP [Part 5] - Abstract Classes/01. Mobile phones app/01. Mobile phones app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/01. OOP [Part 1] - Introduction/01. OOP [Part 1] - Introduction.iml" filepath="$PROJECT_DIR$/java-oop/01. OOP [Part 1] - Introduction/01. OOP [Part 1] - Introduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/06. OOP [Part 6] - Interfaces/01. Shape area calculator/01. Shape area calculator.iml" filepath="$PROJECT_DIR$/java-oop/06. OOP [Part 6] - Interfaces/01. Shape area calculator/01. Shape area calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/06. super keyword/01. Using super inside constructors/01. Using super inside constructors.iml" filepath="$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/06. super keyword/01. Using super inside constructors/01. Using super inside constructors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSwing/01Frame/01Frame.iml" filepath="$PROJECT_DIR$/JavaSwing/01Frame/01Frame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/05. OOP [Part 5] - Abstract Classes/02. Bank app/02. Bank app.iml" filepath="$PROJECT_DIR$/java-oop/05. OOP [Part 5] - Abstract Classes/02. Bank app/02. Bank app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/06. super keyword/02. Calling parent methods using super/02. Calling parent methods using super.iml" filepath="$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/06. super keyword/02. Calling parent methods using super/02. Calling parent methods using super.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/01. OOP [Part 1] - Introduction/02. Methods/02. Methods.iml" filepath="$PROJECT_DIR$/java-oop/01. OOP [Part 1] - Introduction/02. Methods/02. Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/04. OOP [Part 4] - Polymorphism/02. Runtime polymorphism/02. Runtime polymorphism.iml" filepath="$PROJECT_DIR$/java-oop/04. OOP [Part 4] - Polymorphism/02. Runtime polymorphism/02. Runtime polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/06. OOP [Part 6] - Interfaces/02. Static and default methods/02. Static and default methods.iml" filepath="$PROJECT_DIR$/java-oop/06. OOP [Part 6] - Interfaces/02. Static and default methods/02. Static and default methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-basics/02. Variables and Data Types/02. Variables and Data Types.iml" filepath="$PROJECT_DIR$/java-basics/02. Variables and Data Types/02. Variables and Data Types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/02. instanceof/02. instanceof.iml" filepath="$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/02. instanceof/02. instanceof.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSwing/02Label/02Label.iml" filepath="$PROJECT_DIR$/JavaSwing/02Label/02Label.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/01. OOP [Part 1] - Introduction/03. Constructors/03. Constructors.iml" filepath="$PROJECT_DIR$/java-oop/01. OOP [Part 1] - Introduction/03. Constructors/03. Constructors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/03. Method overriding/03. Method overriding.iml" filepath="$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/03. Method overriding/03. Method overriding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/03. OOP  [Part 3] - Composition/03. OOP  [Part 3] - Composition.iml" filepath="$PROJECT_DIR$/java-oop/03. OOP  [Part 3] - Composition/03. OOP  [Part 3] - Composition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/04. Object class/04. Object class.iml" filepath="$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/04. Object class/04. Object class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-basics/04. Operators/04. Operators.iml" filepath="$PROJECT_DIR$/java-basics/04. Operators/04. Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/01. OOP [Part 1] - Introduction/04. this Keyword/04. this Keyword.iml" filepath="$PROJECT_DIR$/java-oop/01. OOP [Part 1] - Introduction/04. this Keyword/04. this Keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/05. final keyword/05. final keyword.iml" filepath="$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/05. final keyword/05. final keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/01. OOP [Part 1] - Introduction/06. static Keyword/06. static Keyword.iml" filepath="$PROJECT_DIR$/java-oop/01. OOP [Part 1] - Introduction/06. static Keyword/06. static Keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-basics/07. Control Flow Statements/07. Control Flow Statements.iml" filepath="$PROJECT_DIR$/java-basics/07. Control Flow Statements/07. Control Flow Statements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/01. OOP [Part 1] - Introduction/07. Packages/07. Packages.iml" filepath="$PROJECT_DIR$/java-oop/01. OOP [Part 1] - Introduction/07. Packages/07. Packages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/07. Protected access modifier/07. Protected access modifier.iml" filepath="$PROJECT_DIR$/java-oop/02. OOP [Part 2] - Inheritance/07. Protected access modifier/07. Protected access modifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-basics/08. Arrays/08. Arrays.iml" filepath="$PROJECT_DIR$/java-basics/08. Arrays/08. Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSwing/JavaSwing.iml" filepath="$PROJECT_DIR$/JavaSwing/JavaSwing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-basics/java-basics.iml" filepath="$PROJECT_DIR$/java-basics/java-basics.iml" />
+    </modules>
+  </component>
+</project>

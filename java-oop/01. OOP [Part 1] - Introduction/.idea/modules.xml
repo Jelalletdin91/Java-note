@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01. OOP [Part 1] - Introduction.iml" filepath="$PROJECT_DIR$/01. OOP [Part 1] - Introduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02. Methods/02. Methods.iml" filepath="$PROJECT_DIR$/02. Methods/02. Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03. Constructors/03. Constructors.iml" filepath="$PROJECT_DIR$/03. Constructors/03. Constructors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04. this Keyword/04. this Keyword.iml" filepath="$PROJECT_DIR$/04. this Keyword/04. this Keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06. static Keyword/06. static Keyword.iml" filepath="$PROJECT_DIR$/06. static Keyword/06. static Keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07. Packages/07. Packages.iml" filepath="$PROJECT_DIR$/07. Packages/07. Packages.iml" />
+    </modules>
+  </component>
+</project>

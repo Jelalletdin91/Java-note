@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/01. Introduction" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02. Method Parameters" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03. Methods with a Return Value" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04. Methods with Early Return" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05. Method Overloading" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06. Getters and Setters" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01. Introduction/01. Introduction.iml" filepath="$PROJECT_DIR$/01. Introduction/01. Introduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06. super keyword/01. Using super inside constructors/01. Using super inside constructors.iml" filepath="$PROJECT_DIR$/06. super keyword/01. Using super inside constructors/01. Using super inside constructors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06. super keyword/02. Calling parent methods using super/02. Calling parent methods using super.iml" filepath="$PROJECT_DIR$/06. super keyword/02. Calling parent methods using super/02. Calling parent methods using super.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/02. OOP [Part 2] - Inheritance.iml" filepath="$PROJECT_DIR$/.idea/02. OOP [Part 2] - Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02. instanceof/02. instanceof.iml" filepath="$PROJECT_DIR$/02. instanceof/02. instanceof.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03. Method overriding/03. Method overriding.iml" filepath="$PROJECT_DIR$/03. Method overriding/03. Method overriding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04. Object class/04. Object class.iml" filepath="$PROJECT_DIR$/04. Object class/04. Object class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05. final keyword/05. final keyword.iml" filepath="$PROJECT_DIR$/05. final keyword/05. final keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07. Protected access modifier/07. Protected access modifier.iml" filepath="$PROJECT_DIR$/07. Protected access modifier/07. Protected access modifier.iml" />
+    </modules>
+  </component>
+</project>

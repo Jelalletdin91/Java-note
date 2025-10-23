@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01. Mobile phones app/01. Mobile phones app.iml" filepath="$PROJECT_DIR$/01. Mobile phones app/01. Mobile phones app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02. Bank app/02. Bank app.iml" filepath="$PROJECT_DIR$/02. Bank app/02. Bank app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/05. OOP [Part 5] - Abstract Classes.iml" filepath="$PROJECT_DIR$/.idea/05. OOP [Part 5] - Abstract Classes.iml" />
+    </modules>
+  </component>
+</project>

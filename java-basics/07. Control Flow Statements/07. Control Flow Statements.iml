@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/01. if statement" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02. if-else statement" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03. if-else-if statement" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04. nested if-else statement" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05. switch statement" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06. enhanced switch statement" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07. while loop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08. do-while loop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/09. for loop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10. break statement" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11. continue statement" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
