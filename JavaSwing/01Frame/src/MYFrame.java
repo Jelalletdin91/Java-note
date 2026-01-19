@@ -16,6 +16,6 @@ public class MYFrame extends JFrame {
         ImageIcon jiji=new ImageIcon("img1.jpg");
         this.setIconImage(jiji.getImage());//Putting new icon
         // frame.getContentPane().setBackground(Color.red);
-        this.getContentPane().setBackground(new Color(255, 0, 150));//Changing background color
+        this.getContentPane().setBackground(new Color(0, 102, 255));//Changing background color
     }
 }

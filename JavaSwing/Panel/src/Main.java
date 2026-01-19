@@ -16,10 +16,9 @@ public class Main {
 
         JLabel label=new JLabel();
         label.setIcon(image);
-
-        label.setBounds(100, 25, 100, 100);
+        label.setBounds(0, 0, 100, 100);
         label.setHorizontalAlignment(JLabel.CENTER);
-        label.setBackground(Color.yellow);
+        //label.setBackground(Color.BLACK);
         label.setOpaque(true);
 
 
@@ -27,7 +26,6 @@ public class Main {
         redpanel.setBackground(Color.red);
         redpanel.setBounds(0, 0, 150, 150);
         redpanel.setLayout(null);
-
 
         JPanel panel2=new JPanel();
         panel2.setBackground(new Color(25, 255, 45));
@@ -38,7 +36,6 @@ public class Main {
         panel3.setBackground(new Color(180, 60, 255));
         panel3.setBounds(0, 150, 300, 150);
         panel3.setLayout(null);
-
 
 
         panel3.add(label);
