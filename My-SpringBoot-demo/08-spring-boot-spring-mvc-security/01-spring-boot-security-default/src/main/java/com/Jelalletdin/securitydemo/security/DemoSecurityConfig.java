@@ -1,0 +1,66 @@
+package com.Jelalletdin.securitydemo.security;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+import org.springframework.security.web.SecurityFilterChain;
+
+import java.net.http.HttpRequest;
+
+@Configuration
+public class DemoSecurityConfig {
+
+    @Bean
+    public InMemoryUserDetailsManager userDetailsManager(){
+        UserDetails john = User.builder()
+                .username("john")
+                .password("{noop}jiji2331331")
+                .roles("EMPLOYEE")
+                .build();
+
+        UserDetails mary = User.builder()
+                .username("mary")
+                .password("{noop}jiji2331331")
+                .roles("EMPLOYEE", "MANAGER")
+                .build();
+
+        UserDetails fred = User.builder()
+                .username("fred")
+                .password("{noop}jiji2331331")
+                .roles("EMPLOYEE", "MANAGER", "ADMIN")
+                .build();
+
+        return new InMemoryUserDetailsManager(john, mary, fred);
+    }
+
+    @Bean
+    public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception{
+
+        httpSecurity.authorizeHttpRequests(configurer->
+                configurer
+                        .requestMatchers("/").hasRole("EMPLOYEE")
+                        .requestMatchers("/leaders/**").hasRole("MANAGER")
+                        .requestMatchers("/system/**").hasRole("ADMIN")
+                        .anyRequest().authenticated()
+        )
+                .formLogin(form->
+                            form
+                                    .loginPage("/myLoginPage")
+                                    .loginProcessingUrl("/authenticateTheUser")
+                                    .permitAll()
+                        )
+                .logout(logout-> logout.permitAll())
+                .exceptionHandling(configurer->
+                        configurer.accessDeniedPage("/access-denied")
+                );
+
+
+        return httpSecurity.build();
+
+
+
+    }
+}
