@@ -4,6 +4,7 @@ import com.Jelalletdin.cruddemo.dao.AppDAO;
 import com.Jelalletdin.cruddemo.entity.Course;
 import com.Jelalletdin.cruddemo.entity.Instructor;
 import com.Jelalletdin.cruddemo.entity.InstructorDetail;
+import com.Jelalletdin.cruddemo.entity.Review;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -21,32 +22,54 @@ public class CruddemoApplication {
 	@Bean
 	public CommandLineRunner commandLineRunner(AppDAO appDAO){
 		return runner->{
-			//createInstructor(appDAO);
-
-			//findInstructor(appDAO);
-
-			//deleteInstructor(appDAO);
-
-			//findInstructorDetailById(appDAO);
-
-			//deleteInstructorDetailById(appDAO);
-
-			//createInstructorWithCourses(appDAO);
-
-			//findInstructorWithCoursew(appDAO);
-
-			//findCourseForInstructor(appDAO);
-
-			//findInstructorWithJoinFetch(appDAO);
-
-			//updateInstructor(appDAO);
-
-			//updateCourse(appDAO);
-
-			deleteCourse(appDAO);
+			//createCourseReviews(appDAO);
+			//retrievCourseAndReviewsById(appDAO);
+			deleteCourseAndReviews(appDAO);
 		};
 	}
 
+	private void deleteCourseAndReviews(AppDAO appDAO) {
+
+		int theId = 10 ;
+		System.out.println("Deleting Course.......");
+		appDAO.deleteCourseById(theId);
+		System.out.println("Done");
+
+
+	}
+
+	private void retrievCourseAndReviewsById(AppDAO appDAO) {
+
+		int theId=10;
+
+		Course course = appDAO.findCourseAndReviewsById(theId);
+
+		System.out.println(course);
+		System.out.println(course.getReviews());
+
+		System.out.println("Done");
+
+	}
+
+	private void createCourseReviews(AppDAO appDAO) {
+
+		Course course = new Course("Gym");
+
+		course.addReview(new Review("It is really cool"));
+		course.addReview(new Review("It is really bad"));
+		course.addReview(new Review("It is normal"));
+
+		System.out.println("Course is saving...");
+		appDAO.saveCourse(course);
+		System.out.println("Done");
+
+
+
+
+	}
+
+	//-----------------------------------------------------------------------
+	//-----------------------------------------------------------------------
 	private void deleteCourse(AppDAO appDAO) {
 
 		int theId = 10;
