@@ -24,8 +24,18 @@ public class AoPdemoApplication {
 	private void demoTheBeforeAdvice(AccountDAO accountDAO, MembershipDAO membershipDAO) {
 
 		Account account = new Account();
+
+		account.setName1("Jelalletdin");
+		account.setName2("Berjanov");
+
 		accountDAO.addAccount(account, true);
 		accountDAO.doWork();
+
+		accountDAO.setName("foober");
+		accountDAO.setServiceCode("jiji2331331");
+
+		String name = accountDAO.getName();
+		String code = accountDAO.getServiceCode();
 
 		membershipDAO.addMember();
 		membershipDAO.goToSleep();
