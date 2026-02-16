@@ -6,6 +6,13 @@ public class Account {
 
     private String name2;
 
+    public  Account(){}
+
+    public Account(String name1, String name2) {
+        this.name1 = name1;
+        this.name2=name2;
+    }
+
     public String getName1() {
         return name1;
     }
@@ -20,5 +27,13 @@ public class Account {
 
     public void setName2(String name2) {
         this.name2 = name2;
+    }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "name1='" + name1 + '\'' +
+                ", name2='" + name2 + '\'' +
+                '}';
     }
 }

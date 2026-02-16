@@ -3,6 +3,9 @@ package com.Jellalletdin.AOPdemo.Dao;
 import com.Jellalletdin.AOPdemo.Account;
 import org.springframework.stereotype.Repository;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Repository
 public class AccountDAOImpl implements AccountDAO{
 
@@ -40,4 +43,32 @@ public class AccountDAOImpl implements AccountDAO{
         System.out.println(getClass() + " DOING MY DG WORK ON SetServiceCode()");
         ServiceCode = serviceCode;
     }
+
+    @Override
+    public List<Account> findAccounts(boolean tripWire) {
+
+        if (tripWire){
+            throw new RuntimeException("No soup");
+        }
+
+        List<Account> myAccounts = new ArrayList<>();
+
+        Account temp1= new Account("Aly", "Asyrov");
+        Account temp2 = new Account("Jelalletdin", "Berjanov");
+        Account temp3 = new Account("Oraz", "Bayjayev");
+
+        myAccounts.add(temp1);
+        myAccounts.add(temp2);
+        myAccounts.add(temp3);
+
+        return myAccounts;
+    }
+
+    @Override
+    public List<Account> findAccounts() {
+
+        return findAccounts(false);
+    }
+
+
 }

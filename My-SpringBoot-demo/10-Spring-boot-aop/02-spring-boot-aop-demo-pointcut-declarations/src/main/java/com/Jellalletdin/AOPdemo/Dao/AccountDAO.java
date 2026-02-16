@@ -2,6 +2,8 @@ package com.Jellalletdin.AOPdemo.Dao;
 
 import com.Jellalletdin.AOPdemo.Account;
 
+import java.util.List;
+
 public interface AccountDAO {
 
     void addAccount(Account account, boolean vipFlag);
@@ -15,4 +17,8 @@ public interface AccountDAO {
     String getServiceCode();
 
     void setServiceCode(String serviceCode);
+
+    List <Account> findAccounts();
+
+    List<Account> findAccounts(boolean tripWire);
 }
